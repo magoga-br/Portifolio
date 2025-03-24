@@ -1,14 +1,14 @@
 # Portfólio Olá, Bem vindo ao meu projeto de portfólio.
 
-![image](./assets/image.png)
+![image](./assets/image.jpg)
 
 ## Ferramentas utilizadas:
 
-* HTML
+- HTML
 
-* CSS
+- CSS
 
-* Flex-box
+- Flex-box
 
 ## Feito por:
 
