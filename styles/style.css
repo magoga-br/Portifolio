@@ -44,6 +44,10 @@ main{
     gap: 80px;
 }
 
+.cabecalho__menu>a{
+    font-size: 1.5rem;
+}
+
 .cabecalho__menu__links{
     font-size: 1.5rem;
     font-weight: 600;
@@ -125,6 +129,7 @@ main{
 }
 
 .rodape{
+    width: 100%;
     padding: 24px;
     text-align: center;
     color: var(--cor-primaria);
@@ -147,13 +152,18 @@ ul>li>a:hover{
 
 @media (max-width: 1200px) {
     .cabecalho{
-        padding: 10%;
+        padding: 5%;
         position: inherit;
         align-self:inherit;
     }
 
     .cabecalho__menu{
         justify-content: center;
+        font-size: 0.5rem;
+    }
+
+    .cabecalho__menu>a{
+        font-size: 1rem;
     }
     
     .apresentacao{
