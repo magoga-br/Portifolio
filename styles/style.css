@@ -7,8 +7,8 @@
 :root{
     --cor-primaria: #201E1F;
     --cor-secundaria: #DCD7C9;
-    --cor-terciaria: #A27B5C;
-    --cor-hover: #634c39;
+    --cor-terciaria: #B48A7A;
+    --cor-hover: #B48A7A;
 
     --fonte-primaria: 'Monocraft';
 }
@@ -16,6 +16,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: var(--fonte-primaria);
     text-decoration: none;
 }
@@ -36,7 +37,6 @@ main{
     position: sticky;
     top: 0;
     align-self: flex-start;
-    border-bottom: 1px solid var(--cor-terciaria);
 }
 
 .cabecalho__menu{
@@ -56,6 +56,7 @@ main{
 
 .cabecalho__menu__links:hover{
     color: var(--cor-hover);
+    opacity: 0.9;
 }
 
 .apresentacao{
@@ -118,6 +119,7 @@ main{
 
 .apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
+    opacity: 0.9;
 }
 
 .apresentacao__imagem {
@@ -148,6 +150,7 @@ main{
 
 ul>li>a:hover{
     color: var(--cor-hover);
+    opacity: 0.9;
 }
 
 @media (max-width: 1200px) {
