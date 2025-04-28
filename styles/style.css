@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Monocraft", "Poppins", "sans-serif";
+    font-family: "Monocraft";
     src: url('/fonts/Monocraft.ttf') format('truetype'),
          url('/fonts/Monocraft.otf') format('opentype');
 }
