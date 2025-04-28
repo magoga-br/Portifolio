@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Monocraft';
+    font-family: "Monocraft", "Poppins", "sans-serif";
     src: url('/fonts/Monocraft.ttf') format('truetype'),
          url('/fonts/Monocraft.otf') format('opentype');
 }
@@ -10,7 +10,8 @@
     --cor-terciaria: #B48A7A;
     --cor-hover: #B48A7A;
 
-    --fonte-primaria: 'Monocraft';
+    --fonte-primaria: "Poppins", sans-serif;
+    --fonte-secundaria: "Monocraft", sans-serif;
 }
 
 *{
@@ -49,6 +50,7 @@ main{
 }
 
 .cabecalho__menu__links{
+    font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
@@ -74,10 +76,12 @@ main{
 }
 
 .apresentacao__conteudo__titulo{
+    font-family: var(--fonte-secundaria);
     font-size: 2rem;
 }
 
 .titulo-destaque{
+    font-family: var(--fonte-secundaria);
     color: var(--cor-terciaria);
 }
 
@@ -99,6 +103,7 @@ main{
 }
 
 .apresentacao__links__subtitulo{
+    font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
 }
 
@@ -153,7 +158,12 @@ ul>li>a:hover{
     opacity: 0.9;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 968px) {
+
+    *{
+        font-size: .9em;
+    }
+
     .cabecalho{
         padding: 5%;
         position: inherit;
