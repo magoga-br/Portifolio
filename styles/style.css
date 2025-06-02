@@ -172,9 +172,25 @@ ul>li>a:hover{
 /* PROJETOS */
 
 .apresentacao-projetos{
-   flex-direction: column;
-   gap: 20px;
-   padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.baixarpdf{
+    border: solid 2px;
+    border-radius: 10px;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    width: 100%;
+    padding: 1em;
+    align-self: center;
 }
 
 .apresentacao-projetos__conteudo{
@@ -246,16 +262,18 @@ ul>li>a:hover{
     }
     
     .apresentacao{
+        flex-direction: column-reverse;
         padding: 10%;
     }
 
     .apresentacao__conteudo{
         width: auto;
+        margin-top: 2em;
     }
 
     .apresentacao__imagem {
         position: inherit;
-        align-self:inherit;
+        align-self: inherit;
     }
 
     .apresentacao-projetos__conteudo{
