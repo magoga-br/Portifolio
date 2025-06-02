@@ -3,9 +3,12 @@
   "headers": [
     {
       "source": "/(.*)",
-      "headers": {
-        "X-Served-By": "Vercel"
-      }
+      "headers": [
+        {
+          "key": "X-Served-By",
+          "value": "Vercel"
+        }
+      ]
     }
   ]
 }
