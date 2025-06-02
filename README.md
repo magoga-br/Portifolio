@@ -12,24 +12,9 @@ Este projeto foi desenvolvido para apresentar meu portfólio como desenvolvedor,
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=fff)
 ![Flexbox](https://img.shields.io/badge/Flex--box-563D7C?style=for-the-badge&logo=css3&logoColor=fff)
 
-- Fonte personalizada ([Monocraft](./fonts/Monocraft.ttf))
-
 ## 📸 Preview
 
 ![Preview do Portfólio](./assets/image.png)
-
-
-## 📄 Estrutura de Pastas
-
-```
-about.html
-curriculo.html
-index.html
-assets/
-fonts/
-styles/
-```
-
 
 ## 🌐 Acesse minhas redes
 
